@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'sqlite3',
     'photos',
     'uploads',
+    'lms',
 )
 
 MIDDLEWARE_CLASSES = (
