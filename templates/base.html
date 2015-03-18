@@ -1,0 +1,53 @@
+{%  load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>piction</title>
+
+    <!-- CSS Sources here -->
+    <link rel="stylesheet" href="{%  static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{%  static 'css/simple-sidebar.css' %}">
+
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <div id="sidebar-wrapper">
+
+
+            <!-- Navbar Header -->
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="/">LMS</a></li>
+                <li class="sidebar-brand"><a href="/">schedule</a></li>
+                <li class="sidebar-brand"><a href="/">locations</a></li>
+                <li class="sidebar-brand"><a href="/">instructors</a></li>
+                <li class="sidebar-brand"><a href="/">reports</a></li>
+                <li class="sidebar-brand"><a href="/photos">photos</a></li>
+                <li class="sidebar-brand"><a href="/uploads">uploads</a></li>
+            </ul>
+
+        </div>
+        <!-- End Navbar -->
+
+
+
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    <!-- Div Wrapper end
+
+    <!-- JS sources -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+
+</body>
+</html>

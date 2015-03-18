@@ -1,0 +1,11 @@
+{%  extends 'base.html' %}
+
+{%  block content %}
+
+{% for photo in photo_list %}
+{{ photo.title }}
+{{ photo.file}}</br>
+<img src="{{photo.file}}" height="552" width="442">
+{% endfor %}
+
+{%  endblock %}
