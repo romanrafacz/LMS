@@ -2,21 +2,20 @@ from django.db import models
 
 # Create your models here.
 
-class AvnetDescription(models.Model):
-    avnet_description_id = models.IntegerField() 
-    avnet_type_id = models.IntegerField() 
-    avnet_name = models.CharField(max_length=50) 
-    language = models.CharField(max_length=10)
-    description = models.TextField()
-    overview = models.TextField()
-    abstract = models.TextField()
-    prerequisits = models.TextField()
-    topic = models.TextField()
-    last_modified = models.CharField(max_length=50) 
-    avnet_name = models.CharField(max_length=50) 
-
 class AvnetTypeInfo(models.Model):
     avnet_type_id = models.Integer()
+    avnet_name = models.CharField(max_length=50) 
+    avnet_title = models.TextField()
+    last_modified_str = models.CharField(max_length=25) 
+    created_str = models.CharField(max_length=25) 
+    last_modified = models.TimeField()
+    last_modified_by= models.CharField(max_length=100) 
+    created = models.TimeField()
+    classroom_delivery_method = models.CharField(max_length=200) 
+
+class AvnetDescription(models.Model):
+    avnet_description_id = models.IntegerField() 
+    avnet_type_id = models.ForeignKey('AvnetTypeInfo') 
     avnet_name = models.CharField(max_length=50) 
     avnet_title = models.TextField()
     last_modified_str = models.CharField(max_length=25) 
@@ -124,7 +123,7 @@ class JMWLocationInfo(models.Model):
 
 class RoomInfo(models.Model):
     room_info_id = models.IntegerField()
-    location_info_id = models.IntegerField()
+    location_info_id = models.ForeignKey('JMWLocationInfo)
     room_name= models.CharField(max_length=50) 
     number_seats= models.IntegerField()
     cpu = models.CharField(max_length=50) 
