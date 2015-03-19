@@ -52,7 +52,7 @@
                 <div class="navbar-right"><a class="btn btn-default">logout</a> </div>
             </div>
             <!-- /button and login div -->
-                <div class="page-content">
+                <div id="page-content">
                 {% block content %}
                 {% endblock %}
                 </div>
@@ -85,7 +85,9 @@
 
     <script>
         $(function() {
-            $('#dataTable').dataTable();
+            $('#dataTable').dataTable({
+                "pageLength":25
+            });
         });
     </script>
 
