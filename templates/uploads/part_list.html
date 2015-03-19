@@ -6,23 +6,15 @@
     <table id="dataTable" class="display">
         <thead>
             <tr>
+                <th>Id</th>
                 <th>Training Id</th>
                 <th>name</th>
                 <th>company</th>
-                <th>phone</th>
+                <th>email</th>
             </tr>
         </thead>
         <tbody>
-                {% for part in part_list %}
-                <tr>
 
-                    <td>{{part.training_id}}</td>
-                    <td>{{part.name}}</td>
-                    <td>{{part.company}}</td>
-                    <td>{{part.email}}</td>
-
-                </tr>
-                {% endfor %}
         </tbody>
     </table>
 

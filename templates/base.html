@@ -86,7 +86,9 @@
     <script>
         $(function() {
             $('#dataTable').dataTable({
-                "pageLength":25
+                auto_initialize: true,
+                "pageLength":25,
+                "bServerSide": true
             });
         });
     </script>
