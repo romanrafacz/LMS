@@ -9,6 +9,8 @@ urlpatterns = patterns('',
      url(r'^uploads/', include('uploads.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+
+    # authentication
     url(r'^login/', 'django.contrib.auth.views.login'),
     url(r'^logout/', 'django.contrib.auth.views.logout')
 )
