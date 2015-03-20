@@ -1,12 +1,12 @@
 from django.shortcuts import render
 
-from django.views.generiv import ListView
+from django.views.generic import ListView
 
-from location.models import  
+from location.models import  JMWLocationInfo 
 
 # Create your views here.
 
 class LocationListView(ListView):
     model = JMWLocationInfo 
 
-location_view = LocationListView.as_view()
+location_list = LocationListView.as_view()
