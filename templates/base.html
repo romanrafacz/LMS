@@ -85,10 +85,29 @@
 
     <script>
         $(function() {
-            $('#dataTable').dataTable({
+            $('#uploads').dataTable({
                 auto_initialize: true,
                 "pageLength":25,
-                "bServerSide": true
+                "bServerSide": true,
+                "columns": [
+                    {"title": "training_id"},
+                    {"title": "name"},
+                    {"title": "company"},
+                    {"title": "email"},
+                ]
+            });
+        });
+        $(function() {
+            $('#locations').dataTable({
+                auto_initialize: true,
+                "pageLength": 25,
+                "bServerSide": true,
+                "columns": [
+                    {"title": "training_id"},
+                    {"title": "name"},
+                    {"title": "company"},
+                    {"title": "email"},
+                ]
             });
         });
     </script>

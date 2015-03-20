@@ -9,5 +9,9 @@ from datatableview.views import DatatableView
 
 class PartListView(DatatableView):
     model = Part
+    datatable_options = {
+    'columns': [
+        'training_id', 'name', 'company', 'phone'
+    ]}
 
 part_list = PartListView.as_view()
