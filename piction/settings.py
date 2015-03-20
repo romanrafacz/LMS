@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'photos',
     'uploads',
     'lms',
+    'location',
 )
 
 MIDDLEWARE_CLASSES = (
