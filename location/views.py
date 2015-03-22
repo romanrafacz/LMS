@@ -9,5 +9,10 @@ from datatableview.views import DatatableView
 
 class LocationListView(DatatableView):
     model = JMWLocationInfo 
+    datatable_options = {
+             'columns': [
+                'description', 'street', 'city', 'state', 'postal_code', 'phone'
+                ]
+            }
 
 location_list = LocationListView.as_view()
