@@ -5,7 +5,10 @@
 	<!-- Form here for locations table -->
 	<div class="form">
 		<form action="/" method="POST">
+	        {% csrf_token %}	
 		
+		{{form_class.field}}
+		<input type="submit" value="submit">
 		</form>
 
 	</div>
@@ -14,7 +17,7 @@
 	<!-- Table display here -->
 	<div class="table">
 
-	    <table id="locations" class="display">
+	    <table id="locations" class="display" style="width:100%;">
 		<thead>
 		</thead>
 		<tbody>
@@ -22,6 +25,6 @@
 	    </table>
 
 	</div>
-	<!-- ./Table div end
+	<!-- ./Table div end -->
 
 {% endblock %}
