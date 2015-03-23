@@ -31,6 +31,9 @@ class JMWLocationInfo(models.Model):
     tech_phone= models.CharField(null=True, blank=True, max_length=25) 
     notes = models.TextField(null=True, blank=True) 
 
+    def __unicode__(self):
+        return u'%s' % self.description
+
 class RoomInfo(models.Model):
     room_info_id = models.IntegerField()
     location_info_id = models.ForeignKey('JMWLocationInfo')

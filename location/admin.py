@@ -6,4 +6,4 @@ from location.models import JMWLocationInfo
 
 @admin.register(JMWLocationInfo)
 class LocationAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('description', 'street', 'city', 'state', 'postal_code', 'phone')

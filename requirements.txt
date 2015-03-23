@@ -1,0 +1,8 @@
+Django==1.7.6
+django-datatable-view==0.8.1
+djangocms-admin-style==0.2.5
+gnureadline==6.3.3
+ipython==3.0.0
+python-dateutil==2.4.1
+six==1.9.0
+wsgiref==0.1.2
