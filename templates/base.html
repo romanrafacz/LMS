@@ -33,7 +33,7 @@
                 <li class="sidebar-brand"><a href="/">LMS</a></li>
                 <li class="sidebar-brand"><a href="/schedule">schedule</a></li>
                 <li class="sidebar-brand"><a href="/location">locations</a></li>
-                <li class="sidebar-brand"><a href="/">instructors</a></li>
+                <li class="sidebar-brand"><a href="/speaker">instructors</a></li>
                 <li class="sidebar-brand"><a href="/">reports</a></li>
                 <li class="sidebar-brand"><a href="/photos">photos</a></li>
                 <li class="sidebar-brand"><a href="/uploads">uploads</a></li>
@@ -109,6 +109,25 @@
                     {"title": "state"},
                     {"title": "postal_code"},
                     {"title": "phone"},
+                ]
+            });
+        });
+        $(function() {
+            $('#speaker').dataTable({
+                auto_initialize: true,
+                "pageLength": 25,
+                "bServerSide": true,
+                "columns": [
+                    {"title": "last_name"},
+                    {"title": "first_name"},
+                    {"title": "email"},
+                    {"title": "mobile_phone"},
+                    {"title": "address_1"},
+                    {"title": "address_2"},
+                    {"title": "city"},
+                    {"title": "state"},
+                    {"title": "country"},
+                    {"title": "postal_code"},
                 ]
             });
         });

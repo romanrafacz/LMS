@@ -9,6 +9,7 @@ urlpatterns = patterns('',
      url(r'^uploads/', include('uploads.urls')),
      url(r'^schedule/', include('schedule.urls')),
      url(r'^location/', include('location.urls')),
+     url(r'^speaker/', include('speaker.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
 
