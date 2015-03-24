@@ -10,9 +10,6 @@ from photos.models import Photo
 class ScheduleListView(TemplateView):
     template_name = 'schedule/schedule_list.html'
 
-    @method_decorator
-    def dispatch(self, *args, **kwargs):
-        return super(ScheduleListView, self).dispatch(*args, **kwargs)
 
 schedule_list = ScheduleListView.as_view()
 
