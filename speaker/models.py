@@ -1,0 +1,43 @@
+from django.db import models
+
+# Create your models here.
+
+class SpeakerInfo(models.Model):
+    speaker_info_id = models.IntegerField()
+    hourly_rate = models.DecimalField(null=True, max_digits=6, decimal_places=2)
+    weekly_rate = models.DecimalField(null=True, max_digits=6, decimal_places=2)
+    currency = models.CharField(null=True, max_length=10)
+    bio = models.TextField(null=True)
+    address_1 = models.CharField(null=True, max_length=100)
+    address_2 = models.CharField(null=True, max_length=100)
+    city = models.CharField(null=True, max_length=50)
+    state = models.CharField(null=True, max_length=20)
+    postal_code = models.CharField(null=True, max_length=20)
+    country = models.CharField(null=True, max_length=20)
+    contact_id = models.IntegerField(null=True)
+    contact_type = models.CharField(null=True, max_length=20)
+    prefix = models.CharField(null=True, max_length=20)
+    first_name = models.CharField(null=True, max_length=50)
+    last_name = models.CharField(null=True, max_length=50)
+    suffix = models.CharField(null=True, max_length=20)
+    nickname = models.CharField(null=True, max_length=25)
+    title = models.CharField(null=True, max_length=30)
+    company_id = models.IntegerField(null=True)
+    company_name = models.CharField(null=True, max_length=100)
+    home_phone = models.CharField(null=True, max_length=20)
+    office_phone = models.CharField(null=True, max_length=20)
+    mobile_phone = models.CharField(null=True, max_length=20)
+    fax = models.CharField(null=True, max_length=20)
+    last_contact = models.IntegerField(null=True)
+    referred_by = models.CharField(null=True, max_length=50)
+    notes = models.TextField(null=True)
+    email = models.CharField(null=True, max_length=100)
+    email_2 = models.CharField(null=True, max_length=100)
+    speaker_active = models.CharField(null=True, max_length=1)
+
+class SpeakerCertification(models.Model):
+    speaker_cert_id = models.IntegerField()
+    avnet_type_id = models.IntegerField(null=True)
+    jmw_course_info_id = models.IntegerField(null=True)
+    speaker_info_id = models.ForeignKey(SpeakerInfo)
+    cert_languate = models.CharField(null=True, max_length=10)

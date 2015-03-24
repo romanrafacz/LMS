@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'uploads',
     'lms',
     'location',
+    'speaker',
 )
 
 MIDDLEWARE_CLASSES = (
