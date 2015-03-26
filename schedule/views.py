@@ -5,7 +5,7 @@ from django.utils.decorators import method_decorator
 from django.views.generic import TemplateView, ListView
 from datatableview.views import DatatableView
 
-from lms.models import JMWClassInfo 
+from lms.models import JMWClassInfo, ClassPlSummary 
 
 # Create your views here.
 class ScheduleListView(DatatableView):
@@ -19,4 +19,8 @@ class ScheduleListView(DatatableView):
 
 
 schedule_list = ScheduleListView.as_view()
+
+class JMClassView(ListView):
+    model = ClassPlSummary 
+    template_name = 'schedule/class_summary.html'
 

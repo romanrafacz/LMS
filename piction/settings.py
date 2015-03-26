@@ -106,3 +106,5 @@ MEDIA_ROOT = os.path.join(PROJECT_DIR, '../media')
 TEMPLATES = '/templates'
 TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, '../templates'),)
 
+LOGIN_REDIRECT_URL = 'authentication/'
+
