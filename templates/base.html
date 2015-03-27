@@ -54,6 +54,8 @@
                 <div class="navbar-right">
                     {%  if not user.is_anonymous %}
                         {{ user }}
+                    {% else %}
+                        <a href="/login" class="btn btn-default">login</a>
                     {% endif %}
                     <a href="/logout" class="btn btn-default">logout</a>
                 </div>
