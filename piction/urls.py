@@ -10,6 +10,7 @@ urlpatterns = patterns('',
      url(r'^schedule/', include('schedule.urls')),
      url(r'^location/', include('location.urls')),
      url(r'^speaker/', include('speaker.urls')),
+    url(r'^registration/', include('registration.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
 
