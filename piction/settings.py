@@ -90,21 +90,23 @@ USE_TZ = True
 
 
 PROJECT_DIR = os.path.dirname(__file__)
+CONTENT_DIR = os.path.join(PROJECT_DIR, os.pardir)
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, '../static'),)
+STATICFILES_DIRS = TEMPLATE_DIRS = (os.path.join(CONTENT_DIR, 'static'),)
 
 #Media
 
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT = os.path.join(PROJECT_DIR, '../media')
+MEDIA_ROOT = os.path.join(CONTENT_DIR, 'media')
 
 TEMPLATES = '/templates'
-TEMPLATE_DIRS = (os.path.join(PROJECT_DIR, '../templates'),)
+TEMPLATE_DIRS = (os.path.join(CONTENT_DIR, 'templates'),)
 
 LOGIN_REDIRECT_URL = 'authentication/'
 
