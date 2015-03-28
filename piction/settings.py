@@ -97,13 +97,13 @@ CONTENT_DIR = os.path.join(PROJECT_DIR, os.pardir)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = TEMPLATE_DIRS = (os.path.join(CONTENT_DIR, 'static'),)
+STATICFILES_DIRS = (os.path.join(CONTENT_DIR, 'static'),)
 
 #Media
 
 MEDIA_URL = '/media/'
 
-MEDIA_ROOT = os.path.join(CONTENT_DIR, 'media')
+MEDIA_DIRS = os.path.join(CONTENT_DIR, 'media')
 
 TEMPLATES = '/templates'
 TEMPLATE_DIRS = (os.path.join(CONTENT_DIR, 'templates'),)
