@@ -57,7 +57,7 @@
                     {% else %}
                         <a href="/login" class="btn btn-default">login</a>
                     {% endif %}
-                    <a href="/logout" class="btn btn-default">logout</a>
+                    <a href="{%  url "django.contrib.auth.logout %}" class="btn btn-default">logout</a>
                 </div>
             </div>
             <!-- /button and login div -->
