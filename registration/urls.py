@@ -7,4 +7,7 @@ urlpatterns = patterns('',
     url(r'^$',
         views.signup, name='singup'
     ),
+    url(r'^register$',
+        views.register, name='register'
+    ),
 )
