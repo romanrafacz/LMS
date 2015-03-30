@@ -109,6 +109,6 @@ TEMPLATES = '/templates'
 TEMPLATE_DIRS = (os.path.join(CONTENT_DIR, 'templates'),)
 
 LOGIN_REDIRECT_URL = 'authentication/'
-LOGOUT_REDIRECT_URL = 'athentication/'
+LOGOUT_URL = '/templates/sign_up.html'
 
 

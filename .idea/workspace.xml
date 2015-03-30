@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2356688" vertical-offset="737" max-vertical-offset="2595">
+            <state vertical-scroll-proportion="-6.1666665" vertical-offset="737" max-vertical-offset="2595">
               <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
               <folding />
             </state>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/piction/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.68" vertical-offset="1143" max-vertical-offset="1800">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.76076555" vertical-offset="1143" max-vertical-offset="1800">
+              <caret line="108" column="57" selection-start-line="108" selection-start-column="57" selection-end-line="108" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -80,8 +80,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/piction/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="405">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="390">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,9 +110,9 @@
         <option value="$PROJECT_DIR$/templates/registration/sign_up.html" />
         <option value="$PROJECT_DIR$/registration/migrations/urls.py" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/piction/settings.py" />
         <option value="$PROJECT_DIR$/piction/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/piction/settings.py" />
       </list>
     </option>
   </component>
@@ -120,8 +120,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="752" />
-    <option name="y" value="23" />
+    <option name="x" value="627" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
     <option name="height" value="772" />
   </component>
@@ -429,7 +429,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="752" y="23" width="1400" height="772" extended-state="0" />
+    <frame x="627" y="22" width="1400" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -748,26 +748,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/piction/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.68" vertical-offset="1143" max-vertical-offset="1800">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/piction/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="405">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="390">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2356688" vertical-offset="737" max-vertical-offset="2595">
+        <state vertical-scroll-proportion="-6.1666665" vertical-offset="737" max-vertical-offset="2595">
           <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/piction/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76076555" vertical-offset="1143" max-vertical-offset="1800">
+          <caret line="108" column="57" selection-start-line="108" selection-start-column="57" selection-end-line="108" selection-end-column="57" />
           <folding />
         </state>
       </provider>
