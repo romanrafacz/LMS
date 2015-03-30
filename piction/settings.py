@@ -30,7 +30,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'djangocms_admin_style',
+    #'djangocms_admin_style',
+    'suit',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -111,4 +112,7 @@ TEMPLATE_DIRS = (os.path.join(CONTENT_DIR, 'templates'),)
 LOGIN_REDIRECT_URL = 'authentication/'
 LOGOUT_URL = '/templates/sign_up.html'
 
-
+TEMPLATE_CONTEXT_PROCESSORS = (
+        'django.core.context_processors.request',
+        'django.contrib.auth.context_processors.auth',
+        )
