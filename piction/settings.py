@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -99,6 +99,7 @@ CONTENT_DIR = os.path.join(PROJECT_DIR, os.pardir)
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(CONTENT_DIR, 'static'),)
+STATIC_ROOT = 'staticfiles'
 
 #Media
 
@@ -116,3 +117,12 @@ TEMPLATE_CONTEXT_PROCESSORS = (
         'django.core.context_processors.request',
         'django.contrib.auth.context_processors.auth',
         )
+
+###Heroku settings - allowed_hosts and static stuff setup above
+import dj_database_url
+DATABASES['default'] = dj_database_url.config()
+DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3',
+DATABASES['default']['NAME'] = os.path.join(BASE_DIR, 'db.sqlite3')
+
+#Honor the 'X-Forwarded-Proto' header for request.is_secure()
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

@@ -1,9 +1,13 @@
 Django==1.7.6
+dj-database-url==0.3.0
+dj-static==0.0.6
 django-datatable-view==0.8.1
 django-suit==0.2.12
 djangocms-admin-style==0.2.5
 gnureadline==6.3.3
+gunicorn==19.3.0
 ipython==3.0.0
 python-dateutil==2.4.1
 six==1.9.0
+static3==0.5.1
 wsgiref==0.1.2

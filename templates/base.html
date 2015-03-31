@@ -55,7 +55,7 @@
                     {%  if not user.is_anonymous %}
                         {{ user }}
                     {% else %}
-                        <a href="/login" class="btn btn-default">login</a>
+                        <a href="/login/?next=/schedule" class="btn btn-default">login</a>
                     {% endif %}
                     <a href="/logout/?next=/" class="btn btn-default">logout</a>
                 </div>
