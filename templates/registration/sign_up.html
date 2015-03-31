@@ -10,9 +10,6 @@
     {% endif %}
     <form method="post" action="/registration/register">
         {% csrf_token %}
-        {{userform.username.label}}
-        {{userform.email.label}}
-        {{userform.password.label}}
         <label>access code(turkey)</label>&nbsp;<input type="text" name="access_code"></br>
         <input type="submit" value="submit">
     </form>

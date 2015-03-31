@@ -1,0 +1,18 @@
+{%  extends 'base.html' %}
+
+{%  block content %}
+
+    {%  if messages %}
+    {{ message }}
+    {%  endif %}
+    <form action="/registration/signup" method="post">
+
+        {% csrf_token %}
+        {{userform.username.label}}&nbsp;{{ userform.username }}</br>
+        {{userform.email.label}}&nbsp;{{ userform.email }}</br>
+        {{userform.password.label}}&nbsp;{{ userform.password }}</br>
+
+        <input type="submit" name="submit">
+
+    </form>
+{%  endblock %}
