@@ -2,8 +2,8 @@
 
 {%  block content %}
 
-    {%  if messages %}
-    {{ message }}
+    {%  if message %}
+    <div class="messages" style="color:red;">{{ message }}</div>
     {%  endif %}
     <form action="/registration/signup" method="post">
 
