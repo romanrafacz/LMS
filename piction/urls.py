@@ -1,6 +1,8 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 
+from piction import settings
+
 urlpatterns = patterns('',
     # Examples:
      url(r'^$', 'piction.views.index', name='index'),
@@ -17,5 +19,6 @@ urlpatterns = patterns('',
     # authentication
     url(r'^accounts/login/', 'django.contrib.auth.views.login'),
     url(r'^login/', 'django.contrib.auth.views.login'),
-    url(r'^logout/', 'django.contrib.auth.views.logout')
+    url(r'^logout/', 'django.contrib.auth.views.logout'),
+    url(r'^media/(?P<path>,*)$', 'django.views.static.serve',{'document_root':settings.MEDIA_ROOT})
 )
