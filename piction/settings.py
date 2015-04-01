@@ -103,9 +103,10 @@ STATIC_ROOT = 'staticfiles'
 
 #Media
 
-MEDIA_URL = '/media/'
-
-MEDIA_DIRS = os.path.join(CONTENT_DIR, 'media')
+#MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(CONTENT_DIR, 'media')
+#MEDIA_DIRS = os.path.join(CONTENT_DIR, 'media')
+#MEDIAFILES_LOCATION = 'media'
 
 TEMPLATES = '/templates'
 TEMPLATE_DIRS = (os.path.join(CONTENT_DIR, 'templates'),)
