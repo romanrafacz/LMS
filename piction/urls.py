@@ -4,15 +4,18 @@ from django.contrib import admin
 from piction import settings
 
 urlpatterns = patterns('',
-    # Examples:
+    # URl to home page
      url(r'^$', 'piction.views.index', name='index'),
     # url(r'^blog/', include('blog.urls')),
-     url(r'^photos/', include('photos.urls')),
-     url(r'^uploads/', include('uploads.urls')),
-     url(r'^schedule/', include('schedule.urls')),
-     url(r'^location/', include('location.urls')),
-     url(r'^speaker/', include('speaker.urls')),
+
+    #App specific urls
+    url(r'^photos/', include('photos.urls')),
+    url(r'^uploads/', include('uploads.urls')),
+    url(r'^schedule/', include('schedule.urls')),
+    url(r'^location/', include('location.urls')),
+    url(r'^speaker/', include('speaker.urls')),
     url(r'^registration/', include('registration.urls')),
+    url(r'^reporting/', include('reporting.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
 
