@@ -5,6 +5,9 @@
 
     <div id="chart">
 
+    <p>
+    {{ jm_2013 }}
+    </p>
     </div>
 
 <div class="panel panel-default">
@@ -45,15 +48,16 @@
            },
            series: [{
                name: 'Profit',
-               data: [100000, 250000, 205000]
+               data: [{{ jm_2013|safe }}, {{ jm_2014|safe }}, {{ jm_2015|safe }}]
            }, {
                name: 'Expenses',
-               data: ['80000, 165000, 189000']
+               data: [80000, 165000, 189000]
            }]
        });
     });
 
     console.log();
 </script>
+
 
 {% endblock %}
