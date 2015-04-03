@@ -1,11 +1,75 @@
 {% extends 'base.html' %}
 
+{%  load staticfiles %}
+
 {%  block extrahead %}
-    <!-- hightlights for charting -->
-    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <!-- hightlights for charting-->
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script src="{% static 'js/highcharts.js' %}"></script>
+
+     <script src="{% static 'js/exporting.js' %}"></script>
+
+
 
 {% endblock %}
 
 {% block content %}
-Reporting view
+
+    <div id="chart">
+
+    </div>
+
+<div class="panel panel-default">
+    <div id="highlights" class="panel-body">
+    </div>
+</div>
+
+    <script>
+    var chart = c3.generate({
+       bindto: '#chart',
+       data: {
+           columns: [
+                   ['data1', 500, 400, 500, 689, 299, 899],
+                   ['data2', 900, 231, 567, 444, 236, 778],
+           ],
+           axes: {
+               data2: 'y2'
+           } },
+           axis: {
+               y2: {
+                   show: true
+               }
+       }
+    });
+    </script>
+
+<script>
+    $(function() {
+       $("#highlights").highcharts({
+          chart: {
+              type: 'bar'
+          },
+           title: {
+               text: 'Yearly Totals'
+           },
+           xAxis: {
+               categories: ['2013', '2014', '2015']
+           },
+           series: [{
+               name: 'Profit',
+               data: [100000, 250000, 205000]
+           }, {
+               name: 'Expenses',
+               data: ['80000, 165000, 189000']
+           }]
+       });
+    });
+
+    console.log();
+</script>
+
+
+
+
+
 {% endblock %}
