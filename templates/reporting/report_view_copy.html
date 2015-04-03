@@ -1,5 +1,17 @@
-{% extends 'reporting_base.html' %}
+{% extends 'base.html' %}
+
 {%  load staticfiles %}
+
+{%  block extrahead %}
+    <!-- hightlights for charting-->
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+     <script src="{% static 'js/highcharts.js' %}"></script>
+
+     <script src="{% static 'js/exporting.js' %}"></script>
+
+
+
+{% endblock %}
 
 {% block content %}
 
@@ -55,5 +67,9 @@
 
     console.log();
 </script>
+
+
+
+
 
 {% endblock %}
