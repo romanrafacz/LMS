@@ -2,6 +2,8 @@ from django.shortcuts import render
 
 from django.views.generic import TemplateView
 
+from lms.models import ClassPlSummary
+
 # Create your views here.
 
 class ReportView(TemplateView):
