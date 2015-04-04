@@ -53,8 +53,8 @@
       <file leaf-file-name="report_view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/reporting/report_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.875" vertical-offset="420" max-vertical-offset="1020">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state vertical-scroll-proportion="-15.625" vertical-offset="420" max-vertical-offset="1020">
+              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
       <file leaf-file-name="reporting_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/reporting_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875" vertical-offset="480" max-vertical-offset="1590">
+            <state vertical-scroll-proportion="-14.833333" vertical-offset="289" max-vertical-offset="1590">
               <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
               <folding />
             </state>
@@ -93,10 +93,14 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reporting/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40384614" vertical-offset="0" max-vertical-offset="520">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.75" vertical-offset="60" max-vertical-offset="630">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <marker date="1428166377000" expanded="true" signature="437:546" placeholder="SELECT SUM(n..lms_classplsummary..." />
+                <marker date="1428166377000" expanded="true" signature="656:765" placeholder="SELECT SUM(n..lms_classplsummary..." />
+                <marker date="1428166377000" expanded="true" signature="914:1029" placeholder="SELECT SUM(f..lms_classplsummary..." />
+                <marker date="1428166377000" expanded="true" signature="1145:1260" placeholder="SELECT SUM(f..lms_classplsummary..." />
               </folding>
             </state>
           </provider>
@@ -144,8 +148,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="494" />
-    <option name="y" value="36" />
+    <option name="x" value="118" />
+    <option name="y" value="37" />
     <option name="width" value="1400" />
     <option name="height" value="665" />
   </component>
@@ -587,7 +591,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="494" y="36" width="1400" height="665" extended-state="0" />
+    <frame x="118" y="37" width="1400" height="665" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1021,7 +1025,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reporting_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="480" max-vertical-offset="1590">
+        <state vertical-scroll-proportion="-14.833333" vertical-offset="289" max-vertical-offset="1590">
           <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding />
         </state>
@@ -1029,18 +1033,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reporting/report_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.875" vertical-offset="420" max-vertical-offset="1020">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state vertical-scroll-proportion="-15.625" vertical-offset="420" max-vertical-offset="1020">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reporting/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40384614" vertical-offset="0" max-vertical-offset="520">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.75" vertical-offset="60" max-vertical-offset="630">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+            <marker date="1428166377000" expanded="true" signature="437:546" placeholder="SELECT SUM(n..lms_classplsummary..." />
+            <marker date="1428166377000" expanded="true" signature="656:765" placeholder="SELECT SUM(n..lms_classplsummary..." />
+            <marker date="1428166377000" expanded="true" signature="914:1029" placeholder="SELECT SUM(f..lms_classplsummary..." />
+            <marker date="1428166377000" expanded="true" signature="1145:1260" placeholder="SELECT SUM(f..lms_classplsummary..." />
           </folding>
         </state>
       </provider>
