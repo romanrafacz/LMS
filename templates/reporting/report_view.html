@@ -3,17 +3,13 @@
 
 {% block content %}
 
+    <div class="panel panel-default">
+        <div id="highlights" class="panel-body">
+        </div>
+    </div>
+
     <div id="chart">
-
-    <p>
-    {{ jm_2013 }}
-    </p>
     </div>
-
-<div class="panel panel-default">
-    <div id="highlights" class="panel-body">
-    </div>
-</div>
 
     <script>
     var chart = c3.generate({
@@ -50,8 +46,11 @@
                name: 'Profit',
                data: [ {{ jm_2014|safe }}, {{ jm_2015|safe }}]
            }, {
-               name: 'Facility Expenses',
-               data: [ {{ facility_expense_2014|safe }}, {{ facility_expense_2015|safe }}]
+               name: 'Facility Expense',
+               data: [{{ facility_expense_2014|safe }}, {{ facility_expense_2015|safe }}]
+           },{
+               name: 'Instructor Expense',
+               data: [{{ instructor_expense_2014|safe }}, {{ instructor_expense_2015|safe }}]
            }]
        });
     });
