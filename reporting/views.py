@@ -44,3 +44,6 @@ class ReportView(TemplateView):
                 'instructor_expense_2014': instructor_expense_2014, 'instructor_expense_2015':instructor_expense_2015}
 
 reporting_view = ReportView.as_view()
+
+class RosterView(TemplateView):
+    template_name = 'reporting/roster_view.html'
