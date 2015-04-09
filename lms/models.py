@@ -1,5 +1,7 @@
 from django.db import models
 
+import json
+
 # Create your models here.
 
 class AvnetTypeInfo(models.Model):
@@ -94,5 +96,12 @@ class JMWClassInfo(models.Model):
     po = models.CharField(null=True, max_length=50) 
     tech = models.CharField(null=True, max_length=50) 
     labs = models.CharField(null=True, max_length=50) 
-    lock_price = models.CharField(null=True, max_length=1) 
+    lock_price = models.CharField(null=True, max_length=1)
+
+    class Meta:
+        abstract = False
+
+    @property
+    def avnet_type_name(self):
+        return json.loads(self.json_dump)['avnet_type_name']
 

@@ -3,6 +3,9 @@ from django.shortcuts import render
 from django.views.generic import ListView
 from uploads.models import Part
 
+## import File form
+from uploads.forms import UploadForm
+
 from datatableview.views import DatatableView
 
 import csv
@@ -15,6 +18,10 @@ class PartListView(DatatableView):
     'columns': [
         'training_id', 'name', 'company', 'phone'
     ]}
+
+    def get_context_data(self, **kwargs):
+        form = UploadForm()
+        return {'form':form}
 
 part_list = PartListView.as_view()
 
