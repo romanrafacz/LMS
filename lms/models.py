@@ -101,7 +101,4 @@ class JMWClassInfo(models.Model):
     class Meta:
         abstract = False
 
-    @property
-    def avnet_type_name(self):
-        return json.loads(self.json_dump)['avnet_type_name']
 

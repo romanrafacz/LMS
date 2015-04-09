@@ -28,11 +28,12 @@ part_list = PartListView.as_view()
 def upload_file(request):
     if request.method == 'POST':
         with open(request.POST['file'], 'rU') as infile:
-            reader = csv.reader(infile, delmiter=',', dialect='exce')
+            reader = csv.reader(infile, delmiter=',', dialect='excel')
             for x in reader:
                 enrollment = Part(training_id=x[0], name=x[1], company=[2], email=x[3], phone=[4])
                 enrollment.save()
         return render(request, 'uploads/part_list.html', {})
+
     return render(request, 'uploads/part_list.html', {})
     
 
