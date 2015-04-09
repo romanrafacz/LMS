@@ -25,7 +25,7 @@ class PartListView(DatatableView):
 
 part_list = PartListView.as_view()
 
-def UploadFile(request):
+def upload_file(request):
     if request.method == 'POST':
         with open(request.POST['file'], 'rU') as infile:
             reader = csv.reader(infile, delmiter=',', dialect='exce')

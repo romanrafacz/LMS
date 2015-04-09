@@ -41,8 +41,20 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reporting/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="255">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uploads/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -55,7 +67,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="300">
               <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding />
+              <folding>
+                <marker date="1428543383000" expanded="true" signature="83:357" placeholder="..." />
+                <marker date="1428543383000" expanded="true" signature="332:357" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part_list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="part_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/uploads/part_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.089153044" vertical-offset="0" max-vertical-offset="673">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="435">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#1;n#!!top" expanded="true" />
@@ -93,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uploads/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.8" vertical-offset="0" max-vertical-offset="660">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6026786" vertical-offset="0" max-vertical-offset="672">
+              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -162,12 +177,13 @@
         <option value="$PROJECT_DIR$/templates/reporting/roster_by_course.html" />
         <option value="$PROJECT_DIR$/templates/reporting/roster_view.html" />
         <option value="$PROJECT_DIR$/reporting/views.py" />
-        <option value="$PROJECT_DIR$/reporting/urls.py" />
         <option value="$PROJECT_DIR$/lms/models.py" />
         <option value="$PROJECT_DIR$/uploads/admin.py" />
         <option value="$PROJECT_DIR$/uploads/models.py" />
-        <option value="$PROJECT_DIR$/uploads/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/uploads/views.py" />
+        <option value="$PROJECT_DIR$/reporting/urls.py" />
+        <option value="$PROJECT_DIR$/uploads/urls.py" />
         <option value="$PROJECT_DIR$/templates/uploads/part_list.html" />
       </list>
     </option>
@@ -176,7 +192,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="630" />
+    <option name="x" value="474" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="817" />
@@ -555,7 +571,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="630" y="22" width="1440" height="817" extended-state="6" />
+    <frame x="474" y="22" width="1440" height="817" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -601,14 +617,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/location/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="285">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uploads/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -850,7 +858,7 @@
         <state vertical-scroll-proportion="0.34548944" vertical-offset="0" max-vertical-offset="521">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -947,16 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.8" vertical-offset="0" max-vertical-offset="660">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uploads/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="545">
@@ -969,7 +967,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="300">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
+          <folding>
+            <marker date="1428543383000" expanded="true" signature="83:357" placeholder="..." />
+            <marker date="1428543383000" expanded="true" signature="332:357" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,16 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reporting/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="255">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375" vertical-offset="945" max-vertical-offset="2805">
@@ -999,13 +990,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/reporting/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/uploads/part_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.089153044" vertical-offset="0" max-vertical-offset="673">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="435">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6026786" vertical-offset="0" max-vertical-offset="672">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
