@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, DetailView
 
 from lms.models import ClassPlSummary
 
@@ -47,3 +47,9 @@ reporting_view = ReportView.as_view()
 
 class RosterView(TemplateView):
     template_name = 'reporting/roster_view.html'
+
+class RosterByCourse(DetailView):
+    model = ClassPlSummary
+    template_name = 'reporting/roster_by_course.html'
+    queryset = ClassPlSummary.objects.all()
+    query_pk_and_slug = False
