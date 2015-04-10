@@ -1,5 +1,7 @@
 {% extends 'reporting_base.html' %}
 
 {%  block content %}
-<a href="/reporting/class_roster">report base</a>
+    {%  for course in public_classes %}
+    <a href="/reporting/class_roster">{{ course.avnet_type_name }}</a></br>
+    {%  endfor %}
 {%  endblock %}

@@ -40,6 +40,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="roster_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/reporting/roster_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/uploads/forms.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,17 +86,16 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reporting/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6631737" vertical-offset="367" max-vertical-offset="1035">
-              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.6407186" vertical-offset="337" max-vertical-offset="1005">
+              <caret line="51" column="76" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1428706089000" expanded="true" signature="449:558" placeholder="SELECT SUM(n..lms_classplsummary..." />
-                <marker date="1428706089000" expanded="true" signature="668:777" placeholder="SELECT SUM(n..lms_classplsummary..." />
-                <marker date="1428706089000" expanded="true" signature="927:1042" placeholder="SELECT SUM(f..lms_classplsummary..." />
-                <marker date="1428706089000" expanded="true" signature="1158:1273" placeholder="SELECT SUM(f..lms_classplsummary..." />
-                <marker date="1428706089000" expanded="true" signature="1422:1539" placeholder="SELECT SUM(i..lms_classplsummary..." />
-                <marker date="1428706089000" expanded="true" signature="1673:1790" placeholder="SELECT SUM(i..lms_classplsummary..." />
-                <marker date="1428706089000" expanded="true" signature="2395:2420" placeholder="select * fro..roster_view..." />
+                <marker date="1428707700000" expanded="true" signature="463:572" placeholder="SELECT SUM(n..lms_classplsummary..." />
+                <marker date="1428707700000" expanded="true" signature="682:791" placeholder="SELECT SUM(n..lms_classplsummary..." />
+                <marker date="1428707700000" expanded="true" signature="941:1056" placeholder="SELECT SUM(f..lms_classplsummary..." />
+                <marker date="1428707700000" expanded="true" signature="1172:1287" placeholder="SELECT SUM(f..lms_classplsummary..." />
+                <marker date="1428707700000" expanded="true" signature="1436:1553" placeholder="SELECT SUM(i..lms_classplsummary..." />
+                <marker date="1428707700000" expanded="true" signature="1687:1804" placeholder="SELECT SUM(i..lms_classplsummary..." />
               </folding>
             </state>
           </provider>
@@ -126,7 +135,6 @@
         <option value="$PROJECT_DIR$/static/css/roster.css" />
         <option value="$PROJECT_DIR$/templates/reporting_base.html" />
         <option value="$PROJECT_DIR$/templates/roster_base.html" />
-        <option value="$PROJECT_DIR$/templates/reporting/roster_view.html" />
         <option value="$PROJECT_DIR$/lms/models.py" />
         <option value="$PROJECT_DIR$/uploads/admin.py" />
         <option value="$PROJECT_DIR$/uploads/models.py" />
@@ -136,6 +144,7 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/uploads/views.py" />
         <option value="$PROJECT_DIR$/templates/reporting/roster_by_course.html" />
+        <option value="$PROJECT_DIR$/templates/reporting/roster_view.html" />
         <option value="$PROJECT_DIR$/reporting/views.py" />
       </list>
     </option>
@@ -950,14 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reporting/roster_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06726457" vertical-offset="0" max-vertical-offset="669">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/reporting/roster_by_course.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="450">
@@ -968,19 +969,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/reporting/roster_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/reporting/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6631737" vertical-offset="367" max-vertical-offset="1035">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.6407186" vertical-offset="337" max-vertical-offset="1005">
+          <caret line="51" column="76" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1428706089000" expanded="true" signature="449:558" placeholder="SELECT SUM(n..lms_classplsummary..." />
-            <marker date="1428706089000" expanded="true" signature="668:777" placeholder="SELECT SUM(n..lms_classplsummary..." />
-            <marker date="1428706089000" expanded="true" signature="927:1042" placeholder="SELECT SUM(f..lms_classplsummary..." />
-            <marker date="1428706089000" expanded="true" signature="1158:1273" placeholder="SELECT SUM(f..lms_classplsummary..." />
-            <marker date="1428706089000" expanded="true" signature="1422:1539" placeholder="SELECT SUM(i..lms_classplsummary..." />
-            <marker date="1428706089000" expanded="true" signature="1673:1790" placeholder="SELECT SUM(i..lms_classplsummary..." />
-            <marker date="1428706089000" expanded="true" signature="2395:2420" placeholder="select * fro..roster_view..." />
+            <marker date="1428707700000" expanded="true" signature="463:572" placeholder="SELECT SUM(n..lms_classplsummary..." />
+            <marker date="1428707700000" expanded="true" signature="682:791" placeholder="SELECT SUM(n..lms_classplsummary..." />
+            <marker date="1428707700000" expanded="true" signature="941:1056" placeholder="SELECT SUM(f..lms_classplsummary..." />
+            <marker date="1428707700000" expanded="true" signature="1172:1287" placeholder="SELECT SUM(f..lms_classplsummary..." />
+            <marker date="1428707700000" expanded="true" signature="1436:1553" placeholder="SELECT SUM(i..lms_classplsummary..." />
+            <marker date="1428707700000" expanded="true" signature="1687:1804" placeholder="SELECT SUM(i..lms_classplsummary..." />
           </folding>
         </state>
       </provider>

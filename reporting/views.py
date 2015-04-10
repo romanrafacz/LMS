@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 from django.views.generic import TemplateView, DetailView
 
-from lms.models import ClassPlSummary
+from lms.models import ClassPlSummary, JMWClassInfo
 
 ## Import django database connection
 from django.db import connection
@@ -49,9 +49,7 @@ class RosterView(TemplateView):
     template_name = 'reporting/roster_view.html'
 
     def get_context_data(self, **kwargs):
-        cursor = connection.cursor()
-        cursor.execute("select * from roster_view")
-        public_classes = cursor.fetchall()
+        public_classes = JMWClassInfo.objects.filter(class_status='scheduled').all()
         return {'public_classes': public_classes}
 
 
