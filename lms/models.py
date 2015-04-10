@@ -98,8 +98,6 @@ class JMWClassInfo(models.Model):
     labs = models.CharField(null=True, max_length=50) 
     lock_price = models.CharField(null=True, max_length=1)
 
-    class Meta:
-        abstract = False
 
     def __unicode__(self):
         return "jmw_name: %s" % self.jmw_name

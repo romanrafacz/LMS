@@ -127,7 +127,6 @@ class Migration(migrations.Migration):
                 ('lock_price', models.CharField(max_length=1, null=True)),
             ],
             options={
-                'abstract': False,
             },
             bases=(models.Model,),
         ),

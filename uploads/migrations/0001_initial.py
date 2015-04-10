@@ -19,10 +19,9 @@ class Migration(migrations.Migration):
                 ('company', models.CharField(max_length=50)),
                 ('email', models.CharField(max_length=100)),
                 ('phone', models.CharField(max_length=25)),
-                ('jmw_name', models.ForeignKey(to='lms.JMWClassInfo', to_field=b'jmw_name')),
+                ('jmw_name', models.ForeignKey(related_name='+', to='lms.JMWClassInfo', to_field=b'jmw_name')),
             ],
             options={
-                'abstract': False,
             },
             bases=(models.Model,),
         ),
