@@ -48,8 +48,16 @@ reporting_view = ReportView.as_view()
 class RosterView(TemplateView):
     template_name = 'reporting/roster_view.html'
 
+    def get_context_data(self, **kwargs):
+        cursor = connection.cursor()
+        cursor.execute("select * from roster_view")
+        public_classes = cursor.fetchall()
+        return {'public_classes': public_classes}
+
+
 class RosterByCourse(DetailView):
     model = ClassPlSummary
     template_name = 'reporting/roster_by_course.html'
     queryset = ClassPlSummary.objects.all()
     query_pk_and_slug = False
+
