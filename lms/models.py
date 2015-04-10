@@ -59,7 +59,7 @@ class ClassPlSummary(models.Model):
 
 class JMWClassInfo(models.Model):
     jmw_class_info_id = models.IntegerField()
-    jmw_name = models.CharField(null=True, max_length=25)
+    jmw_name = models.CharField(unique=True, null=True, max_length=25)
     avnet_type_info_id = models.IntegerField(null=True)
     avnet_type_name = models.CharField(null=True, max_length=50)
     start_date_str = models.CharField(null=True, max_length=50)
@@ -100,5 +100,16 @@ class JMWClassInfo(models.Model):
 
     class Meta:
         abstract = False
+
+    def __unicode__(self):
+        return "jmw_name: %s" % self.jmw_name
+
+
+#class Report(models.Model):
+#    jmw_name = models.ManyToManyField('JMWClassInfo', to_field='jmw_name')
+#    name = models.CharField(max_length=255)
+#    company = models.CharField(max_length=50)
+#    email = models.CharField(max_length=100)
+#    phone = models.CharField(max_length=25)
 
 

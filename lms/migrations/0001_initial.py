@@ -87,7 +87,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
                 ('jmw_class_info_id', models.IntegerField()),
-                ('jmw_name', models.CharField(max_length=25, null=True)),
+                ('jmw_name', models.CharField(max_length=25, unique=True, null=True)),
                 ('avnet_type_info_id', models.IntegerField(null=True)),
                 ('avnet_type_name', models.CharField(max_length=50, null=True)),
                 ('start_date_str', models.CharField(max_length=50, null=True)),

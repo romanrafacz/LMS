@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.views.generic import ListView
 from uploads.models import Part
 
+
 ## import File form
 from uploads.forms import UploadForm
 
@@ -14,6 +15,7 @@ import csv
 
 class PartListView(DatatableView):
     model = Part
+    template_name = 'uploads/part_list.html'
     datatable_options = {
     'columns': [
         'jmw_name', 'name', 'email', 'company', 'phone'
