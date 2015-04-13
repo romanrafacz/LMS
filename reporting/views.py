@@ -63,5 +63,7 @@ class RosterByCourse(DetailView):
         object = JMWClassInfo.objects.filter(id=self.kwargs['pk']).all()
         return object
 
+class ReportView_2014(TemplateView):
+    template_name = 'reporting/reporting_view_2014.html'
 
 
