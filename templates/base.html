@@ -125,6 +125,7 @@
             $('#locations').dataTable({
                 auto_initialize: true,
                 "pageLength": 25,
+                "bProcessing": true,
                 "bServerSide": true,
                 "columns": [
                     {"title": "description"},
@@ -156,9 +157,9 @@
             });
         });
         $(function() {
-           $("#schedule").dataTable({
+           $("#schedule").DataTable({
               auto_initialize: true,
-               "pageLength": 25,
+               "pageLength": 50,
                "bServerSide": true,
                "columns": [
                    {'title': "avnet_type_name"},
