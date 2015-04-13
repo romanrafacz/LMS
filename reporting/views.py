@@ -54,8 +54,17 @@ class RosterView(TemplateView):
 
 
 class RosterByCourse(DetailView):
-    model = ClassPlSummary
+    model = JMWClassInfo
     template_name = 'reporting/roster_by_course.html'
-    queryset = ClassPlSummary.objects.all()
+    context_object_name = 'course'
     query_pk_and_slug = False
+
+    def get_object(self, **kwargs):
+        object = JMWClassInfo.object.filter(pk=self.request.kwars['pk']).all()
+        return object
+
+    def get_context_data(self, **kwargs):
+        course=JMWClassInfo.object.filter(pk=self.request.kwars['pk']).all()
+        return course
+
 

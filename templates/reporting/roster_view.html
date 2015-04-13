@@ -2,6 +2,8 @@
 
 {%  block content %}
     {%  for course in public_classes %}
-    <a href="/reporting/class_roster">{{ course.avnet_type_name }}</a></br>
+        {% if course.avnet_type_name %}
+    <a href="/reporting/class_roster/{{ course.pk }}">{{ course.avnet_type_name }}</a></br>
+        {%  endif %}
     {%  endfor %}
 {%  endblock %}

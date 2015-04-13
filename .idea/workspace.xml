@@ -40,11 +40,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reporting/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="roster_view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/reporting/roster_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210">
+              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -70,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reporting_base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reporting_base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/reporting_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15695067" vertical-offset="120" max-vertical-offset="1560">
+            <state vertical-scroll-proportion="-4.375" vertical-offset="120" max-vertical-offset="1560">
               <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
@@ -93,19 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reporting/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.4" vertical-offset="0" max-vertical-offset="1005">
-              <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.59692895" vertical-offset="604" max-vertical-offset="1140">
+              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1428707700000" expanded="true" signature="463:572" placeholder="SELECT SUM(n..lms_classplsummary..." />
-                <marker date="1428707700000" expanded="true" signature="682:791" placeholder="SELECT SUM(n..lms_classplsummary..." />
-                <marker date="1428707700000" expanded="true" signature="941:1056" placeholder="SELECT SUM(f..lms_classplsummary..." />
-                <marker date="1428707700000" expanded="true" signature="1172:1287" placeholder="SELECT SUM(f..lms_classplsummary..." />
-                <marker date="1428707700000" expanded="true" signature="1436:1553" placeholder="SELECT SUM(i..lms_classplsummary..." />
-                <marker date="1428707700000" expanded="true" signature="1687:1804" placeholder="SELECT SUM(i..lms_classplsummary..." />
+                <marker date="1428950001000" expanded="true" signature="463:572" placeholder="SELECT SUM(n..lms_classplsummary..." />
+                <marker date="1428950001000" expanded="true" signature="682:791" placeholder="SELECT SUM(n..lms_classplsummary..." />
+                <marker date="1428950001000" expanded="true" signature="941:1056" placeholder="SELECT SUM(f..lms_classplsummary..." />
+                <marker date="1428950001000" expanded="true" signature="1172:1287" placeholder="SELECT SUM(f..lms_classplsummary..." />
+                <marker date="1428950001000" expanded="true" signature="1436:1553" placeholder="SELECT SUM(i..lms_classplsummary..." />
+                <marker date="1428950001000" expanded="true" signature="1687:1804" placeholder="SELECT SUM(i..lms_classplsummary..." />
               </folding>
             </state>
           </provider>
@@ -153,9 +165,9 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/uploads/views.py" />
         <option value="$PROJECT_DIR$/templates/reporting/roster_by_course.html" />
+        <option value="$PROJECT_DIR$/templates/reporting_base.html" />
         <option value="$PROJECT_DIR$/templates/reporting/roster_view.html" />
         <option value="$PROJECT_DIR$/reporting/views.py" />
-        <option value="$PROJECT_DIR$/templates/reporting_base.html" />
       </list>
     </option>
   </component>
@@ -554,7 +566,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24907522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20441176" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2038835" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -880,16 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reporting/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uploads/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="270">
@@ -953,30 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reporting/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.4" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1428707700000" expanded="true" signature="463:572" placeholder="SELECT SUM(n..lms_classplsummary..." />
-            <marker date="1428707700000" expanded="true" signature="682:791" placeholder="SELECT SUM(n..lms_classplsummary..." />
-            <marker date="1428707700000" expanded="true" signature="941:1056" placeholder="SELECT SUM(f..lms_classplsummary..." />
-            <marker date="1428707700000" expanded="true" signature="1172:1287" placeholder="SELECT SUM(f..lms_classplsummary..." />
-            <marker date="1428707700000" expanded="true" signature="1436:1553" placeholder="SELECT SUM(i..lms_classplsummary..." />
-            <marker date="1428707700000" expanded="true" signature="1687:1804" placeholder="SELECT SUM(i..lms_classplsummary..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reporting/roster_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/reporting/roster_by_course.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="450">
@@ -997,9 +975,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reporting_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15695067" vertical-offset="120" max-vertical-offset="1560">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="120" max-vertical-offset="1560">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/reporting/roster_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="210">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporting/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporting/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59692895" vertical-offset="604" max-vertical-offset="1140">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1428950001000" expanded="true" signature="463:572" placeholder="SELECT SUM(n..lms_classplsummary..." />
+            <marker date="1428950001000" expanded="true" signature="682:791" placeholder="SELECT SUM(n..lms_classplsummary..." />
+            <marker date="1428950001000" expanded="true" signature="941:1056" placeholder="SELECT SUM(f..lms_classplsummary..." />
+            <marker date="1428950001000" expanded="true" signature="1172:1287" placeholder="SELECT SUM(f..lms_classplsummary..." />
+            <marker date="1428950001000" expanded="true" signature="1436:1553" placeholder="SELECT SUM(i..lms_classplsummary..." />
+            <marker date="1428950001000" expanded="true" signature="1687:1804" placeholder="SELECT SUM(i..lms_classplsummary..." />
+          </folding>
         </state>
       </provider>
     </entry>
