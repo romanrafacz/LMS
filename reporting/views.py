@@ -60,11 +60,11 @@ class RosterByCourse(DetailView):
     query_pk_and_slug = False
 
     def get_object(self, **kwargs):
-        object = JMWClassInfo.object.filter(pk=self.request.kwars['pk']).all()
+        object = JMWClassInfo.objects.filter(pk=self.kwargs['pk']).all()
         return object
 
     def get_context_data(self, **kwargs):
-        course=JMWClassInfo.object.filter(pk=self.request.kwars['pk']).all()
+        course=JMWClassInfo.objects.filter(pk=self.kwargs['pk']).all()
         return course
 
 
