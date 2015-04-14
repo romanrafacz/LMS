@@ -3,7 +3,8 @@
 {%  block content %}
     {%  for course in public_classes %}
         {% if course.avnet_type_name %}
-    <b>{{ course.avnet_type_name }}</b>&nbsp;<a href="/reporting/class_roster/{{ course.pk }}">{{ course.jmw_name }}</a></br>
+    <b>{{ course.avnet_type_name }} - </b>&nbsp;{{ course.jmw_name }}&nbsp;<a href="/reporting/class_roster/{{ course.pk }}">View</a>
+            <a href="">print</a> </br>
         {%  endif %}
     {%  endfor %}
 {%  endblock %}
