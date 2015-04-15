@@ -53,8 +53,8 @@
       <file leaf-file-name="reporting_view_2014.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/reporting/reporting_view_2014.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1800643" vertical-offset="968" max-vertical-offset="1785">
-              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.44533762" vertical-offset="953" max-vertical-offset="1785">
+              <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -994,8 +994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/reporting/reporting_view_2014.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1800643" vertical-offset="968" max-vertical-offset="1785">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.44533762" vertical-offset="953" max-vertical-offset="1785">
+          <caret line="82" column="31" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
           <folding />
         </state>
       </provider>
