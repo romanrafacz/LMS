@@ -1,3 +1,3 @@
 # LMS
 
-Learning Management Site writing in Django - Reporting tool, uploading schedule, pdf, etc..
+Learning Management Site - Reporting tool, uploading schedule(excel spreadsheets, pdf prints, etc..
